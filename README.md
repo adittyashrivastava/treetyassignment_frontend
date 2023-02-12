@@ -24,7 +24,7 @@ The dev server would start at [http://localhost:3000](http://localhost:3000)
 
  3. The country, state and city dropdowns are interlinked in the sense that the options to show are intelligently shown according to the option chosen for other elements. In order to create a new entry, type the new entry in the field and click on "Create new" button. In order to leave it as empty, click on "Mark Empty".
 
- 4. Currently I have disbaled pressing "Enter" after finishing or selecting a field to set its value so as to provide a quick fix to unwanted form submissions. A more user friendly method can be implemented given more time.
+ 4. IMPORTANT - Currently I have disbaled pressing "Enter" after finishing or selecting a field to set its value so as to provide a quick fix to unwanted form submissions. A more user friendly method can be implemented given more time.
 ## Available Scripts
 
 In the project directory, you can run:
