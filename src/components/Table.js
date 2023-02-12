@@ -75,15 +75,15 @@ function Table() {
                                 <td>{listValue.symbol}</td>
                                 <td>{listValue.shortname}</td>
                                 <td>{listValue.longname}</td>
-                                <td>{listValue.industry.related_sector===null ? null : listValue.industry.related_sector.name}</td>
-                                <td>{listValue.industry.name}</td>
+                                <td>{ listValue.industry===null ? null : (listValue.industry.related_sector===null ? null : listValue.industry.related_sector.name) }</td>
+                                <td>{ listValue.industry===null ? null : listValue.industry.name }</td>
                                 <td>{listValue.current_price}</td>
                                 <td>{listValue.marketcap}</td>
                                 <td>{listValue.ebitda}</td>
                                 <td>{listValue.revenue_growth}</td>
-                                <td>{listValue.city.country===null ? null : listValue.city.country.name}</td>
-                                <td>{listValue.city.state===null ? null : listValue.city.state.name}</td>
-                                <td>{listValue.city.name}</td>
+                                <td>{ listValue.city===null ? null : (listValue.city.country===null ? null : listValue.city.country.name) }</td>
+                                <td>{ listValue.city===null ? null : (listValue.city.state===null ? null : listValue.city.state.name) }</td>
+                                <td>{ listValue.city===null ? null : listValue.city.name}</td>
                                 <td>{listValue.full_time_employees}</td>
                                 <td>{listValue.weight}</td>
                                 <td> <div>{listValue.long_business_summary}</div></td>
