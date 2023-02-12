@@ -2,6 +2,29 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Instructions
+
+1. Make sure you have npm installed in your PC. If not, you can do so by following the process mentioned [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+ 2. Run the following command to download all dependencies -
+ ```bash
+ npm install
+ ```
+
+ 3. Run the following command to start development server -
+ ```bash
+ npm start
+ ```
+The dev server would start at [http://localhost:3000](http://localhost:3000)
+ ##Key Points to Note -
+
+ 1. The add company button adds a new company in the database.
+
+ 2. The load more button located at the bottom of the table loads the companies in a paginated manner. The company that has been added most recently will show at the top of the table. The load all table loads the whole table in one go.
+
+ 3. The country, state and city dropdowns are interlinked in the sense that the options to show are intelligently shown according to the option chosen for other elements. In order to create a new entry, type the new entry in the field and click on "Create new" button. In order to leave it as empty, click on "Mark Empty".
+
+ 4. Currently I have disbaled pressing "Enter" after finishing or selecting a field to set its value so as to provide a quick fix to unwanted form submissions. A more user friendly method can be implemented given more time.
 ## Available Scripts
 
 In the project directory, you can run:

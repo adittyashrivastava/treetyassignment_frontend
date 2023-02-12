@@ -1,0 +1,35 @@
+table {
+    table-layout: fixed;
+    width: 4000px;
+    font: larger monospace;
+    border-collapse: collapse;
+}
+
+ th:nth-child(16) {
+    width: 50%;
+}
+
+td > div {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+}
+
+td > div:hover {
+    z-index: 1;
+    width: auto;
+    background-color: #FFFFCC;
+}
+
+/* th:nth-child(3) {
+    width: 20%;
+} */
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
